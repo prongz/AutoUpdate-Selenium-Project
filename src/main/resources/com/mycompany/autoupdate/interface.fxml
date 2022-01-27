@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.autoupdate.Interface">
+   <children>
+      <Button fx:id="firstchoose" layoutX="10.0" layoutY="89.0" mnemonicParsing="false" onAction="#getfile1" prefHeight="25.0" prefWidth="96.0" text="Choose File 1" />
+      <Button fx:id="secondchoose" layoutX="10.0" layoutY="155.0" mnemonicParsing="false" onAction="#getfile2" prefHeight="25.0" prefWidth="96.0" text="Choose File 2" />
+      <TextField fx:id="firstadress" layoutX="112.0" layoutY="90.0" prefHeight="25.0" prefWidth="470.0" />
+      <TextField fx:id="secondadress" layoutX="112.0" layoutY="155.0" prefHeight="25.0" prefWidth="470.0" />
+      <Button fx:id="start" layoutX="165.0" layoutY="251.0" mnemonicParsing="false" onAction="#start" prefHeight="57.0" prefWidth="270.0" text="Start">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="Status" alignment="CENTER" contentDisplay="CENTER" layoutX="41.0" layoutY="326.0" prefHeight="35.0" prefWidth="513.0" textAlignment="CENTER" textFill="#ab2c2c">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
